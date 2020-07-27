@@ -82,8 +82,10 @@ function App() {
         alice.playbackRate += 0.1;
         adjustSceneryPlayback();
       }
+      
   
       window.addEventListener("click", goFaster);
+      alert("To fast speed click on queen")
   })
 
   
